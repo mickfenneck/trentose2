@@ -3,7 +3,7 @@ function isTriangle(a,b,c) {
 }
 
 function getTriangleType (a,b,c) {
-	if(a==b==c)
+	if(a==b && a==c)
 		return "equilater";
 	else if((a!=b)&&(a!=c)&&(b!=c))
 		return "scalene";
